@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
- * Description: main- This is a program to print out
+ * main - Entry point
  *
- *Return 0 if successful
+ *Return:Always 0(success)
  */
-int main(void)
-{
-puts("Programming is like building a multilingual puzzle");
-return (0);
-
-}
+	int main(void)
+	{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+	}
