@@ -22,7 +22,6 @@ int main(void)
 
 	{
 		putchar(lw);
-		
 		lw += 1;
 	}
 
