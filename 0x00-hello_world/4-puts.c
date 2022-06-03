@@ -1,4 +1,4 @@
-#include <stdio.>
+#include <stdio.h>
 /**
  * Description: main- This is a program to print out
  *
