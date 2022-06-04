@@ -13,7 +13,7 @@ int main(void)
 	{
 	int n = 61;
 
-	int l = 'c';
+	int l = 'a';
 
 	while (n <= 76)
 
