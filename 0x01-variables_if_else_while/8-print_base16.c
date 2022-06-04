@@ -10,7 +10,7 @@
 int main(void)
 
 	{
-	int n = 0;
+	int n = 1;
 
 	int l = 'a';
 
