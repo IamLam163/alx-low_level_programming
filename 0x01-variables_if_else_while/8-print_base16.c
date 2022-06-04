@@ -15,7 +15,7 @@ int main(void)
 
 	int l = 'a';
 
-	while (n <= 76)
+	while (n <= 70)
 
 	{
 		putchar(n);
