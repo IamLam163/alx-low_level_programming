@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#include <ctype.h>
+
 /**
  * main - program that prints single digit numbers
  *
