@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-#include <ctype.h>
-
 /**
  * main - program that prints single digit numbers
  *
@@ -9,17 +7,12 @@
  */
 
 int main(void)
+{
+	int x;
 
-	{
-	int n = 0;
+	for (x = 0; x <= 10; x++)
 
-	while (n <= 10)
-
-	{
-		putchar(n);
-		n += 1;
-	}
-	puts("\n");
+	putchar(x);
 
 	return (0);
-	}
+}
