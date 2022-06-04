@@ -9,9 +9,9 @@
 int main(void)
 
 	{
-	int n = 48;
+	int n = 21;
 
-	while (n <= 57)
+	while (n <= 26)
 
 	{
 		putchar(n);
