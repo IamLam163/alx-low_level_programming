@@ -3,7 +3,6 @@
 /**
  * main -  program that prints all the numbers of base 16 in lowercase
  *
- *
  *    Return: 0
  *
  */
@@ -11,11 +10,11 @@
 int main(void)
 
 	{
-	int n = 61;
+	int n = 0;
 
 	int l = 'a';
 
-	while (n <= 70)
+	while (n <= 10)
 
 	{
 		putchar(n);
