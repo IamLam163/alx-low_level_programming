@@ -11,9 +11,9 @@
 int main(void)
 
 	{
-	int n = 21;
+	int n = 0;
 
-	while (n <= 26)
+	while (n <= 10)
 
 	{
 		putchar(n);
