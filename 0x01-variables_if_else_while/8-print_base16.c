@@ -24,6 +24,11 @@ int main(void)
 	}
 
 	while (l <= 'f')
+	{
+		putchar(l);
+
+		l += 1;
+	}
 
 	{
 
