@@ -27,15 +27,12 @@ int main(void)
 	{
 		putchar(l);
 
-		l += 1;
+		l ++;
 	}
 
 	{
 
-		putchar(l);
-
-		l++;
-
+		putchar ('\n');
 	}
 
 
