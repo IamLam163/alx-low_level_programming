@@ -8,14 +8,12 @@
 
 int main(void)
 {
-	int x;
+	int n;
 
-	for (x = 0; x <= 9; x++)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(x);
+		putchar(n);
 	}
-
 	putchar('\n');
-
-	return (0);
+return (0);
 }
