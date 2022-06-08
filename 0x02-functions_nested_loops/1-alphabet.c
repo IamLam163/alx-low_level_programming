@@ -2,7 +2,7 @@
 /**
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  *
- * return 0; if successful
+ * Return 0; if successful
  *
  */
 
