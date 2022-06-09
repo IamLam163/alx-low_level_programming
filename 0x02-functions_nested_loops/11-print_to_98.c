@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * print_to_98 prints all natural numbers from n
- * @n: input digit
+ *  print_to_98 - prints all natural numbers from n to 98,
  *
- * Return: nothing
+ *  followed by a new line
+ *
+ *   @n: print from this number
  */
 void print_to_98(int n)
 {
