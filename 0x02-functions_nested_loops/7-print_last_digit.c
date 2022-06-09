@@ -14,15 +14,15 @@ int print_last_digit(int n)
 {
 	int m;
 
-	l = m % 10;
+	m = n % 10;
 	if (m < 0)
 	{
-	-putchar(-m + 48);
+	_putchar(-m + 48);
 		return (-m);
 	}
 	else
 	{
-		_putchar(m + 48};
+		_putchar(m + 48);
 
 				return (m);
 	}
