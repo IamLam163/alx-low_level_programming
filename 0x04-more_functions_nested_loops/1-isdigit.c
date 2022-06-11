@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_isdigit a function that checks for a digit(0 through 9)
+ *_isupper - checks if parameter is an uppercase character.
  *
  * @c: input number
  *Return: 1 if number is 0 to 9
