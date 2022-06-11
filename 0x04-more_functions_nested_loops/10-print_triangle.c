@@ -21,5 +21,5 @@ void print_triangle(int size)
 		if (u < (size - 1))
 			_putchar('\n');
 	}
-	-putchar('\n');
+	_putchar('\n');
 }
