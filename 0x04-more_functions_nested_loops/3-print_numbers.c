@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * function thprints the numbers, from 0 to 9, then new line
+ * print_numbers - program prints the numbers, from 0 to 9, then new line
  * Return: 0
  */
 
