@@ -4,8 +4,11 @@
 
 #include <stdio.h>
 
+
+
 /**
- *   main - assign a random number to variable n when it is executed
+ *
+ *   main - assign a random number to variable n
  *
  *    if the number is greater than 0: is positive, if the number is 0: is zero
  *
@@ -19,7 +22,7 @@
 
 int main(void)
 
-	{
+{
 
 	int n;
 
@@ -54,4 +57,5 @@ int main(void)
 	}
 
 	return (0);
-	}
+
+}
