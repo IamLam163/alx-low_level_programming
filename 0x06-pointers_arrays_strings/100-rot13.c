@@ -5,7 +5,7 @@
  * Return: string conversion
  */
 
-char *rot13(char *str)
+char *rot13(char *)
 {
 	int count = 0, a;
 	char *letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
