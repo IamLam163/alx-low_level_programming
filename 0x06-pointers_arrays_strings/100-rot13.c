@@ -5,23 +5,23 @@
  * Return: string conversion
  */
 
-char *rot13(char *)
+char *rot13(char *str)
 {
-	int count = 0, a;
+	int count = 0, b;
 	char *letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char *rot13 = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	while (str[count] != '\0')
 	{
-		a = 0;
-		while (letters[a] != '\0')
+		b = 0;
+		while (letters[b] != '\0')
 		{
-			if (str[count] == letters[a])
+			if (str[count] == letters[b])
 			{
-				str[count] == rot13[a];
+				str[count] == rot13[b];
 				break;
 			}
-			a++;
+			b++;
 		}
 		count++;
 	}
