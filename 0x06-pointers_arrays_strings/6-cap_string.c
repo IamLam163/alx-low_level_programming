@@ -8,7 +8,7 @@
 char *cap_string(char *s)
 {
 	int count = 0, a;
-	int sep_words[] = {32, 9, ',', ';', '.', '!', '!', '?', '"', '(', ')', '{', '}'};
+	int sep_words[] = {32, 9, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
 	if (*(s + count) >= 97 && *(s + count) <= 122)
 		*(s + count) = *(s + count) - 32;
