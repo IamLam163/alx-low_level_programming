@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_diagsums - function prints the sum of diagonals
- * @: input
+ * @: input.
  * @size: size of matrix
  * Return: return nothing
  */
