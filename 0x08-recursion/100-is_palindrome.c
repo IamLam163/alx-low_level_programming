@@ -1,24 +1,24 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - returns the length of a string.
+ * _strlen_R - returns the length of a string.
  * @s: string
- * Return: the length of a string.
+ * Return: length of a string
  */
-int _strlen_recursion(char *s)
+int _strlen_R(char *s)
 {
 	if (*s == '\0')
 		return (0);
 	else
-		return (1 + _strlen_recursion(s + 1));
+		return (1 + _strlen_R(s + 1));
 }
 
 /**
- * comparator - compares each character of the string.
+ * comparator - function compares each character of the string
  * @s: string
- * @n1: smallest iterator.
- * @n2: biggest iterator.
- * Return: .
+ * @n1: smallest iterator
+ * @n2: biggest iterator
+ * Return: 0
  */
 int comparator(char *s, int n1, int n2)
 {
@@ -40,5 +40,5 @@ int is_palindrome(char *s)
 {
 	if (*s == '\0')
 		return (1);
-	return (comparator(s, 0, _strlen_recursion(s) - 1));
+	return (comparator(s, 0, _strlen_R(s) - 1));
 }
