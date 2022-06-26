@@ -9,14 +9,14 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
+	int c;
 	(void)argv;
 
-	for (i = 0; i <= argc; i++)
+	for (c = 0; c <= argc; c++)
 	{
 		0;
 	}
-	printf("%d\n", argc - 1);
+	printf("%d\n", c - 2);
 
 	return (0);
 }
