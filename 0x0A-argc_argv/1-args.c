@@ -7,16 +7,9 @@
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int c;
-	(void)argv;
-
-	for (c = 0; c <= argc; c++)
-	{
-		0;
-	}
-	printf("%d\n", c - 2);
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
