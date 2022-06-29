@@ -41,4 +41,6 @@ char *str_concat(char *s1, char *s2)
 		}
 		k++;
 	}
+	strout[k] = '\0':
+		return (strout);
 }
