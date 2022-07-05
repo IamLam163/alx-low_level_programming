@@ -1,7 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * struct dog - my dog
+ * my_dog - typedef for struct dog
  * @name: Charlie
  * @age: 5 years
  * @owner: Olamide
@@ -9,7 +9,7 @@
 typedef struct dog my_dog;
 
 /**
- * struct dog - struct that stores some information of my dog
+ * struct dog -i struct that stores some information of my dog
  * @name: my dog's name
  * @age: my dog's age
  * @owner: the owner of the dog
