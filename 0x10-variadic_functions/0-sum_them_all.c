@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
-#include <stdui.h>
+#include <stdio.h>
 /**
  * sum_them_all - ENtry point
  * @n: variadic function
