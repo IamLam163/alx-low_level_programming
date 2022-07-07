@@ -1,4 +1,4 @@
-#include "funtion_pointer"
+#include "function_pointer"
 /**
  * array_iterator - function executes function as a parameter
  * @array: array
