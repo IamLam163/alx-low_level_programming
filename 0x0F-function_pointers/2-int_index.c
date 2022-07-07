@@ -5,6 +5,7 @@
  * int_index - function returns index place
  * @array: array
  * @size: size of elements in array
+ * @cmp: pointer to function
  * Return: 0
  */
 
