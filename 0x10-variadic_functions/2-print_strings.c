@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * prints_strings - function prints strings
+ * print_strings - prints strings.
  * @separator: separator
  * @n: number of elements
  * Return: void
