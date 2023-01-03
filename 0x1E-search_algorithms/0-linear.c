@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int linear_search(int *array, size_t size, int value);
+#include "search_algos.h"
 /**
  * linear_search - function searches through an array
  * @array: is a pointer to the first element
